@@ -39,4 +39,6 @@ RUN mkdir yapi && \
 # npm install dependencies and run build
 WORKDIR /home/yapi/yapi
 
+RUN npm i yapi-plugin-gitlab
+
 RUN npm install
